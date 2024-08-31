@@ -1,5 +1,5 @@
 import React from 'react';
-import images from './images/me.jpg';
+import meImage from './images/me.jpg';
 import './Home.css';
 
 
@@ -38,7 +38,7 @@ const Home = () => {
       </div>
     </div>
     <div className="about-image">
-      <img src="me.jpg" alt="Paljinder Singh" />
+      <img src={meImage} alt="Paljinder Singh" />
     </div>
   </div>
 </section>
