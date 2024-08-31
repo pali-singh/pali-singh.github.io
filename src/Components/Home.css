@@ -1,0 +1,143 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.home-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.home-header {
+  background-color: #282c34;
+  padding: 50px;
+  color: white;
+}
+
+.home-about, .home-projects {
+  margin: 50px 0;
+}
+
+.home-project-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-project-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.home-footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+
+.home-about {
+  background-color: #f0f8ff; /* Alice Blue background */
+  padding: 60px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+  padding: 20px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.about-text {
+  flex: 1;
+  color: white; /* White text color */
+}
+
+.about-text h2 {
+  font-size: 2.5em;
+  color: #ffffff; /* White color for the heading */
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #ffffff; /* White color for paragraphs */
+  margin-bottom: 20px;
+}
+
+.skills {
+  margin: 30px 0;
+}
+
+.skills h3 {
+  font-size: 1.8em;
+  color: #ffffff; /* White color for the skills heading */
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  color: #e0e0e0; /* Slightly lighter gray for the list items */
+}
+
+.skills ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.quote {
+  margin: 40px 0;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #ffffff; /* White color for the quote */
+  border-left: 5px solid #ff7e5f; /* Accent color matching gradient */
+  padding-left: 15px;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  color: #ffffff; /* White color for social media links */
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: #feb47b; /* Light accent color on hover */
+}
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+

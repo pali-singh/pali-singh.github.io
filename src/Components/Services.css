@@ -1,0 +1,42 @@
+.services {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-item {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+  font-size: 3em;
+  color: #ff6f61; /* Accent color for icons */
+  margin-bottom: 15px;
+}
+
+.service-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1em;
+  color: #666;
+}

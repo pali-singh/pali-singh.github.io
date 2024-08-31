@@ -1,0 +1,98 @@
+.footer {
+    background: #282c34; /* Dark background */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ff6f61; /* Accent color for headings */
+  }
+  
+  .footer-section p {
+    font-size: 1em;
+    color: #e0e0e0; /* Light gray for text */
+    margin-bottom: 15px;
+  }
+  
+  .footer-email {
+    display: inline-block;
+    background: #ff6f61; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: background 0.3s;
+  }
+  
+  .footer-email:hover {
+    background: #ff3b30; /* Darker shade on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #ff6f61; /* Accent color on hover */
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6f61; /* Button background color */
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .subscribe-form button:hover {
+    background: #ff3b30; /* Darker shade on hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+  
